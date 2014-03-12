@@ -18,7 +18,6 @@ print "\nFilePath => " . $fpath . "\n";
 my($filename, $directories) = fileparse($fpath);
 print "Filename  : " . $filename    . "\n";
 print "Directory : " . $directories . "\n";
-=cut
 
 #======================
 # The following code splits the directory-path between "/" and
